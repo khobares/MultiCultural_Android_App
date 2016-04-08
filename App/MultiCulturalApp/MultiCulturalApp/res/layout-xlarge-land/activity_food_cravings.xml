@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/halal"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_24sdp"
+        android:layout_y="@dimen/_63sdp"
+        android:background="@drawable/green_button"
+        android:onClick="halal"
+        android:text="Halal (Indian / Lebenese)"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/indian"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_169sdp"
+        android:layout_y="@dimen/_65sdp"
+        android:background="@drawable/green_button"
+        android:onClick="indian"
+        android:text="Indian"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/asian"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_171sdp"
+        android:layout_y="@dimen/_178sdp"
+        android:background="@drawable/green_button"
+        android:onClick="asian"
+        android:text="Asian"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/greek"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_26sdp"
+        android:layout_y="@dimen/_292sdp"
+        android:background="@drawable/green_button"
+        android:onClick="greek"
+        android:text="Greek"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/canadian"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_171sdp"
+        android:layout_y="@dimen/_294sdp"
+        android:background="@drawable/green_button"
+        android:onClick="canadian"
+        android:text="Canadian Origin / Fast Food"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/italian"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_24sdp"
+        android:layout_y="@dimen/_178sdp"
+        android:background="@drawable/green_button"
+        android:onClick="italian"
+        android:text="Italian"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/foodCravingsOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="@dimen/_72sdp"
+        android:layout_y="@dimen/_11sdp"
+        android:text="Food Cravings"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4682B4"
+        android:textSize="@dimen/_28sdp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+</AbsoluteLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/worshipPlacesOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="15dp"
+        android:text="Worship Places"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4682B4"
+        android:textSize="@dimen/_28sdp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/catholic"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_30sdp"
+        android:layout_y="@dimen/_68sdp"
+        android:background="@drawable/green_button"
+        android:onClick="catholic"
+        android:text="Catholic Churches"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/protestant"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_172sdp"
+        android:layout_y="@dimen/_70sdp"
+        android:background="@drawable/green_button"
+        android:onClick="protestant"
+        android:text="Protestant Churches"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gurudwara"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_33sdp"
+        android:layout_y="@dimen/_178sdp"
+        android:background="@drawable/green_button"
+        android:onClick="gurudwara"
+        android:text="Gurudwaras"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buddhistTemple"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_172sdp"
+        android:layout_y="@dimen/_180sdp"
+        android:background="@drawable/green_button"
+        android:onClick="buddhistTemple"
+        android:text="Buddhist Temples"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/hinduTemple"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_32sdp"
+        android:layout_y="@dimen/_293sdp"
+        android:background="@drawable/green_button"
+        android:onClick="hinduTemple"
+        android:text="Hindu Temples"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mosque"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_174sdp"
+        android:layout_y="@dimen/_296sdp"
+        android:background="@drawable/green_button"
+        android:onClick="mosque"
+        android:text="Mosques"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

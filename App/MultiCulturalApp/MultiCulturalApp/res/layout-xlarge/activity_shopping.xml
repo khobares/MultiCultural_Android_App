@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="@dimen/_105sdp"
+        android:layout_y="@dimen/_18sdp"
+        android:text="Shopping"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4682B4"
+        android:textSize="@dimen/_28sdp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/malls"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_27sdp"
+        android:layout_y="@dimen/_70sdp"
+        android:background="@drawable/green_button"
+        android:onClick="malls"
+        android:text="Shopping Malls"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shoppers"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_173sdp"
+        android:layout_y="@dimen/_71sdp"
+        android:background="@drawable/green_button"
+        android:onClick="shoppers"
+        android:text="Shoppers Drug Mart (Canada Post)"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/freshco"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_28sdp"
+        android:layout_y="@dimen/_184sdp"
+        android:background="@drawable/green_button"
+        android:onClick="freshco"
+        android:text="Freshco"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/wallmart"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_174sdp"
+        android:layout_y="@dimen/_185sdp"
+        android:background="@drawable/green_button"
+        android:onClick="wallmart"
+        android:text="Wallmart"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/metro"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_28sdp"
+        android:layout_y="@dimen/_296sdp"
+        android:background="@drawable/green_button"
+        android:onClick="metro"
+        android:text="Metro"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ctire"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_175sdp"
+        android:layout_y="@dimen/_296sdp"
+        android:background="@drawable/green_button"
+        android:onClick="ctire"
+        android:text="Canadian Tire"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

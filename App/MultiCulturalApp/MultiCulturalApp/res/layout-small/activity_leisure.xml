@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/leisure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="@dimen/_109sdp"
+        android:layout_y="@dimen/_12sdp"
+        android:text="Leisure"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4682B4"
+        android:textSize="@dimen/_28sdp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/casino"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_26sdp"
+        android:layout_y="@dimen/_61sdp"
+        android:background="@drawable/green_button"
+        android:onClick="casino"
+        android:text="Casinos"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/movies"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_169sdp"
+        android:layout_y="@dimen/_61sdp"
+        android:background="@drawable/green_button"
+        android:onClick="movies"
+        android:text="Movie Theatres"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/wparks"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_28sdp"
+        android:layout_y="@dimen/_175sdp"
+        android:background="@drawable/green_button"
+        android:onClick="wparks"
+        android:text="Water Parks"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/parks"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_168sdp"
+        android:layout_y="@dimen/_176sdp"
+        android:background="@drawable/green_button"
+        android:onClick="parks"
+        android:text="Parks"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nclubs"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_28sdp"
+        android:layout_y="@dimen/_289sdp"
+        android:background="@drawable/green_button"
+        android:onClick="nclubs"
+        android:text="Night Clubs"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/concert"
+        android:layout_width="124dp"
+        android:layout_height="94dp"
+        android:layout_x="@dimen/_168sdp"
+        android:layout_y="@dimen/_289sdp"
+        android:background="@drawable/green_button"
+        android:onClick="concert"
+        android:text="Concert Halls"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

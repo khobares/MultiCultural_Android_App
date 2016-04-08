@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="@dimen/_31sdp"
+        android:layout_y="@dimen/_300sdp"
+        android:clickable="true"
+        android:onClick="caesars"
+        android:text="Click here to navigate to Caerars Windsor"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="265dp"
+        android:layout_height="181dp"
+        android:layout_x="@dimen/_32sdp"
+        android:layout_y="@dimen/_104sdp"
+        android:text="Caesars Windsor in Windsor, Ontario is one of four casinos in the Detroit–Windsor area. The casino is located on Windsor&apos;s riverfront overlooking the Detroit skyline near the Canadian end of the Detroit-Windsor Tunnel. Owned by the government of the province of Ontario (through the Ontario Lottery and Gaming Corporation), it is operated by Caesars Entertainment."
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="@dimen/_31sdp"
+        android:layout_y="@dimen/_279sdp"
+        android:text="Address: 377, Riverside Dr E, Windsor, ON."
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="103dp"
+        android:layout_height="92dp"
+        android:layout_x="@dimen/_106sdp"
+        android:layout_y="@dimen/_6sdp"
+        android:background="@drawable/caesars"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</AbsoluteLayout>

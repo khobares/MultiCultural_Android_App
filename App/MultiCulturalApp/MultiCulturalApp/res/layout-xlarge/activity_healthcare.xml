@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="@dimen/_247sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_x="28dp"
+        android:layout_y="@dimen/_21sdp"
+        android:gravity="center"
+        android:text="Student Health Services @ Uwindsor"
+        android:textColor="#4682B4"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="@dimen/_266sdp"
+           android:layout_height="@dimen/_60sdp"
+           android:layout_x="@dimen/_24sdp"
+           android:layout_y="@dimen/_230sdp"
+           android:clickable="true"
+           android:onClick="openAddress"
+           android:text="@string/CAWAddress"
+           android:textColor="#ffffff"
+           android:textSize="@dimen/_20sdp" />
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="@dimen/_249sdp"
+           android:layout_height="@dimen/_93sdp"
+           android:layout_x="@dimen/_25sdp"
+           android:layout_y="@dimen/_300sdp"
+           android:clickable="true"
+           android:onClick="healthcare"
+           android:text="@string/clickHere"
+           android:textColor="#ffffff"
+           android:textSize="@dimen/_20sdp" />
+
+       <TextView
+           android:id="@+id/uwin"
+           android:layout_width="@dimen/_244sdp"
+           android:layout_height="@dimen/_134sdp"
+           android:layout_x="@dimen/_24sdp"
+           android:layout_y="@dimen/_82sdp"
+           android:text="@string/uwin"
+           android:textColor="#ffffff"
+           android:textSize="@dimen/_20sdp" />
+
+</AbsoluteLayout>

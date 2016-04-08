@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;&apos; to &apos;com.multiculturalapp.R.integer&apos;&#x0D;&#x0A;- Original project: &apos;Dhawal&apos;&#x0D;&#x0A;- Destination element: &apos;com.multiculturalapp.R.integer&apos;&#x0D;&#x0A;- Original element: &apos;com.example.dhawal.R.menu&apos;" description="Copy type" destination="=MultiCulturalApp/gen&lt;com.multiculturalapp{R.java[R[integer" element1="/gen&lt;com.example.dhawal{R.java[R[menu" flags="589830" id="org.eclipse.jdt.ui.copy" members="1" policy="org.eclipse.jdt.ui.copyMembers" stamp="1448069118749" version="1.0"/>
+</session>
